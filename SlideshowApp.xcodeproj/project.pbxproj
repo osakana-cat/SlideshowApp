@@ -13,6 +13,12 @@
 		3ED2BD011C15D6D9007F062E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BCFF1C15D6D9007F062E /* Main.storyboard */; };
 		3ED2BD031C15D6D9007F062E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD021C15D6D9007F062E /* Assets.xcassets */; };
 		3ED2BD061C15D6D9007F062E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD041C15D6D9007F062E /* LaunchScreen.storyboard */; };
+		3ED2BD111C15D897007F062E /* flower0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD0D1C15D897007F062E /* flower0.png */; };
+		3ED2BD121C15D897007F062E /* flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD0E1C15D897007F062E /* flower1.png */; };
+		3ED2BD131C15D897007F062E /* flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD0F1C15D897007F062E /* flower2.png */; };
+		3ED2BD141C15D897007F062E /* flower3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD101C15D897007F062E /* flower3.png */; };
+		3ED2BD1B1C185D17007F062E /* modoru_yajirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD191C185D17007F062E /* modoru_yajirusi.png */; };
+		3ED2BD1C1C185D17007F062E /* susumu_yajirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2BD1A1C185D17007F062E /* susumu_yajirusi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		3ED2BD021C15D6D9007F062E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ED2BD051C15D6D9007F062E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ED2BD071C15D6D9007F062E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED2BD0D1C15D897007F062E /* flower0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower0.png; sourceTree = "<group>"; };
+		3ED2BD0E1C15D897007F062E /* flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower1.png; sourceTree = "<group>"; };
+		3ED2BD0F1C15D897007F062E /* flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower2.png; sourceTree = "<group>"; };
+		3ED2BD101C15D897007F062E /* flower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower3.png; sourceTree = "<group>"; };
+		3ED2BD191C185D17007F062E /* modoru_yajirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modoru_yajirusi.png; sourceTree = "<group>"; };
+		3ED2BD1A1C185D17007F062E /* susumu_yajirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = susumu_yajirusi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +86,13 @@
 		3ED2BCF61C15D6D9007F062E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3ED2BD191C185D17007F062E /* modoru_yajirusi.png */,
+				3ED2BD1A1C185D17007F062E /* susumu_yajirusi.png */,
 				3ED2BCF71C15D6D9007F062E /* main.m */,
+				3ED2BD0D1C15D897007F062E /* flower0.png */,
+				3ED2BD0E1C15D897007F062E /* flower1.png */,
+				3ED2BD0F1C15D897007F062E /* flower2.png */,
+				3ED2BD101C15D897007F062E /* flower3.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED2BD061C15D6D9007F062E /* LaunchScreen.storyboard in Resources */,
+				3ED2BD121C15D897007F062E /* flower1.png in Resources */,
+				3ED2BD111C15D897007F062E /* flower0.png in Resources */,
+				3ED2BD1B1C185D17007F062E /* modoru_yajirusi.png in Resources */,
+				3ED2BD1C1C185D17007F062E /* susumu_yajirusi.png in Resources */,
+				3ED2BD131C15D897007F062E /* flower2.png in Resources */,
 				3ED2BD031C15D6D9007F062E /* Assets.xcassets in Resources */,
+				3ED2BD141C15D897007F062E /* flower3.png in Resources */,
 				3ED2BD011C15D6D9007F062E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
