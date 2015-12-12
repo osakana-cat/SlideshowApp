@@ -30,7 +30,7 @@
 
 -(void)setupBackground{
     aImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
-    aImageView.image = [UIImage imageNamed:@"flower1.png"];
+    aImageView.image = [UIImage imageNamed:@"flower0.png"];
     [self.view addSubview:aImageView];
 }
 
@@ -77,7 +77,7 @@
     countNumber--;
     
     
-    if (countNumber <= 0) {
+    if (countNumber < 0) {
         
         countNumber = 3;
     }
@@ -91,7 +91,7 @@
     
     if (countNumber >= 4){
         
-        countNumber = 1;
+        countNumber = 0;
         
     }
     aImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"flower%ld.png",countNumber]];
